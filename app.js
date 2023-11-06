@@ -11,7 +11,7 @@ btn.addEventListener('click', function() {
     } while (randomNumber === previousRandomNumber);
 
     previousRandomNumber = randomNumber;
-    console.log(randomNumber);
+    // console.log(randomNumber);
 
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
